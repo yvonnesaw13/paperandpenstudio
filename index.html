@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Paper And Pen Studio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4e6b2a1fee.js" crossorigin="anonymous"></script>
+        <style>
+            p {
+                font-family: 'Poppins', sans-serif;
+                margin-top: 20px; /* Adjust this value as needed */
+            }
+        </style>
+        <link rel="icon" type="images/png" href="Images/favicon.png">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.png" alt="logo" width="140px">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Freelance Graphic Design Studio</p>
+            <br>
+            <h1>Welcome to <span>Paper and Pen Studio</span></h1>
+        </div>
+    </div>
+<br>
+<br>
+ <!-- ----------------------------about-------------- --> 
+<div  id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me </h1>
+                <br>
+                <p>
+                Hi, I’m Yvonne, a UI/UX designer dedicated to creating clean, modern, and impactful designs.<br>
+                With a keen eye for aesthetics and attention to detail,<br>
+                I help businesses and individuals bring their ideas to life through visuals that stand out. <br>
+                Whether you need branding, marketing materials, or custom illustrations,<br>
+                I’m here to craft designs that make a lasting impression. Let’s create something amazing together!<br>   
+                </p>
+                <br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                    <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/Interfaces</li>
+                        <li><span>Web Development</span><br>HTML/CSS/Javascripts</li>
+                        <li><span>Graphic Design</span><br>Advertising/Product/Branding/Social Media</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experiences">
+                    <ul>
+                        <li><span>Current</span><br>Freelancing at Paper and Pen Studio</li></li>
+                        <li><span>2025 Project</span><br>Brochure Design for Astute Recruitment Agency</li>
+                        <li><span>2024 Project</span><br>Portrait Illustrations for ECT Team at IMH </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="educations">
+                    <ul>
+                        <li><span>2025</span><br>Specialist Diploma in UI/UX Design at MAD School</li>
+                        <li><span>2021</span><br>Diploma in Health Science at Ngee Ann Polytechnic</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--------------services------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title" style="color: #2d080a;"">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Design</h2>
+                <p> I create clean, responsive websites that capture your brand’s essence<br>
+                    and provide a seamless user experience across all devices</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-pencil"></i>
+                <h2>Graphic Design</h2>
+                <br>
+                <p> Specialize in branding, digital illustrations, and custom graphics, 
+                    offering unique, client-centered designs at an affordable rate.
+                    Whether you're a startup, small business, or an individual in need of compelling visuals, 
+                    I’d love to bring your vision to reality</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Social Media Marketing</h2>
+                <br>
+                <p>As a content creator on TikTok, I specialize in developing engaging content and
+                    audience strategies to boost visibility and drive growth. Let me help elevate your social media presence!</p>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- ---------------------------Portfolio ----------------------- --> 
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" style="color: #2d080a;">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/Project01_Page-1_rv2.jpg">
+                <div class="layer">
+                    <h3>Brochure Design (Tri-fold)</h3>
+                    <p>Front</p>
+                </div>
+            </div>    
+            <div class="work">
+                <img src="Images/Project01_Page-2_rv2.jpg">
+                <div class="layer">
+                    <h3>Brochure Design (Tri-fold)</h3>
+                    <p>Back</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Assignemnt 1.jpg">
+                <div class="layer">
+                    <h3>Advertising Poster Redesign</h3>
+                    <p>Dior Sauvage</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/NPO Poster 1.jpg">
+                <div class="layer">
+                    <h3>Advertising Poster Redesign</h3>
+                    <p>Faber Castle 1</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/NPO Poster 2.jpg">
+                <div class="layer">
+                    <h3>Advertising Poster Redesign</h3>
+                    <p>Faber Castle 2</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/NPO Poster 3.jpg">
+                <div class="layer">
+                    <h3>Advertising Poster Redesign</h3>
+                    <p>Faber Castle 3</p>
+                </div>
+            </div>
+        </div>
+        <a href="https://wa.me/6592957227" class="btn">Contact Me</a>
+    </div>
+  </div>
+<!----------------------------contact----------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Find Me On</h1>
+            </div>
+            <div class="contact-middle">
+                <p><i class="fa-solid fa-envelope"></i> 
+                    <a href="mailto:paperpen_studio01@gmail.com">paperpen_studio01@gmail.com</a>
+                </p>
+                <p><i class="fa-solid fa-phone"></i> 
+                    <a href="tel:+6592957227">(+65) 92957227</a>
+                </p>
+                <p>Our Social Media</p>
+                <div class="social-icons">
+                    <a href="https://www.tiktok.com/@paperandpenstudio?is_from_webapp=1&sender_device=pc" aria-label="TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.carousell.sg/u/paperpenstudio/" aria-label="Carousell">
+                        <i class="fa-solid fa-shop"></i>
+                    </a>
+                </div>
+            </div>     
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Paper & Pen Studio 2025. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+</body>
+</html>
