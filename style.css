@@ -343,7 +343,11 @@ nav ul li a:hover::after{
         flex-direction: column;
         text-align: center;
     }
-
+    .header-text h1 {
+        font-size: 30px; /* Adjust the font size on smaller screens */
+        text-align: center; /* Center-align text */
+        margin-top: 10px; /* Adjust the top margin */
+    }
     .contact-left, .contact-middle {
         flex-basis: 100%;
         margin-bottom: 20px;
