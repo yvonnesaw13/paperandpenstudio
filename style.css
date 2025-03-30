@@ -4,6 +4,7 @@
     font-family: 'Poppins', 'san-serif';
     box-sizing: border-box;
     line-height: 20px;
+    max-width: 100%;
 }
 html, body {
     overflow-x: hidden;
