@@ -5,6 +5,10 @@
     box-sizing: border-box;
     line-height: 20px;
 }
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -17,21 +21,11 @@ body{
 ::-webkit-scrollbar {
     display: none;
 }
-
-/* Hide scrollbar for Firefox */
-html {
-    scrollbar-width: none;
-}
-
-body {
-    overflow-x: hidden;
-}
-
 #header{
      background-color: #ffffff;
 }
 .container{
-    padding: 10px 10%;
+    padding: 10px 10px;
 }
 nav{
     display: flex;
