@@ -13,6 +13,20 @@ body{
     font-style: #2d080a;
     line-height: 18px;   
 }
+/* Hide scrollbar for Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+    scrollbar-width: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 #header{
      background-color: #ffffff;
 }
