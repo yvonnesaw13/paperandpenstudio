@@ -102,6 +102,12 @@ nav ul li a:hover::after{
 .about-col-2{
     flex-basis: 60%;
 }
+.about-col-2 p{
+    margin: 0;
+    padding: 0 10px; /* Adds space on both sides */
+    max-width: 100%;
+    word-wrap: break-word;
+}
 .sub-title{
     font-size: 40px;
     color: #ffffff;
